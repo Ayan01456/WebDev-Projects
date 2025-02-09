@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook-Clone</title>
+  <link rel="stylesheet" href="style.css">
+
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+
+
+</head>
+
+<body>
+
+  <nav>
+    <div class="Left_Nav">
+      <img id="FBlogo" src="My images/Facebook Logo.png">
+      <div id="Search_bar"><input id="searchbarinputtext" type="text" placeholder="Search Facebook"></div>
+    </div>
+
+
+    <div class="Middle_Nav">
+      <ul id="middle_icons" style="list-style-type:none;">
+        <li>
+            <div class="middle_iconbuttons" onclick="switchnavoption(0)"><img id="Home_logo" src="My images/Home logo.png" alt="">
+              <div class="iconbottombar"></div>
+            </div>
+          </li>
+        <li>
+            <div class="middle_iconbuttons" onclick="switchnavoption(1)"><img id="Friends" src="My images/Friends logo.png" alt="">
+              <div class="iconbottombar"></div>
+            </div>
+          </li>
+        <li>
+            <div class="middle_iconbuttons" onclick="switchnavoption(2)"><img id="Watch" src="My images/Watch logo.png" alt="">
+              <div class="iconbottombar"></div>
+            </div>
+          </li>
+        <li>
+            <div class="middle_iconbuttons" onclick="switchnavoption(3)"><img id="marketplace" src="My images/Marketplace logo.PNG" alt="">
+              <div class="iconbottombar"></div>
+            </div>
+          </li>
+        <li>
+            <div class="middle_iconbuttons" onclick="switchnavoption(4)"><img id="gaming" src="My images/gaming.JPG" alt="">
+              <div class="iconbottombar"></div>
+            </div>
+          </li>
+      </ul>
+    </div>
+    <div class="right_nav">
+      <div class="rightnav_optins">
+        <i class="material-icons">&#xe5d2;</i>
+      </div>
+      <div class="rightnav_optins">
+        <i class='fab'>&#xf39f;</i>
+      </div>
+      <div class="rightnav_optins">
+        <i class="material-icons">&#xe5c5;</i>
+      </div>
+      <div class="rightnav_optins">
+        <i class="material-icons">&#xe7f4;</i>
+      </div>
+
+    </div>
+  </nav>
+  <div class="container">
+    <div class="left_content">
+      <div class="left_sidebar">
+        <div class="left_sidebar_options">
+          <ul style="list-style-type:none;">
+            <li>
+              <div class="left_sidebar_options_buttons"><img src="My images/Leftsidebar/findfriends.PNG" alt="">
+                <p>Find Friends</p>
+              </div>
+            </li>
+            <li>
+              <div class="left_sidebar_options_buttons"><img src="My images/Leftsidebar/groups.PNG" alt="">
+                <p>Groups</p>
+              </div>
+            </li>
+            <li>
+              <div class="left_sidebar_options_buttons"><img src="My images/Leftsidebar/marketplace.PNG" alt="">
+                <p>Marketplace</p>
+              </div>
+            </li>
+            <li>
+              <div class="left_sidebar_options_buttons"><img src="My images/Leftsidebar/watch.PNG" alt="">
+                <p>Watch</p>
+              </div>
+            </li>
+            <li>
+              <div class="left_sidebar_options_buttons"><img src="My images/Leftsidebar/memories.PNG" alt="">
+                <p>Memories</p>
+              </div>
+            </li>
+            <li>
+              <div class="left_sidebar_options_buttons"><img src="My images/Leftsidebar/saved.PNG" alt="">
+                <p>Saved</p>
+              </div>
+            </li>
+            <li>
+              <div class="left_sidebar_options_buttons">
+                <div id="seemore_icon"><i class='fas fa-angle-down'></i></div>
+                <p>See more</p>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+        <div class="left_sidebar_shortcuts"></div>
+      </div>
+    </div>
+    <div class="main_contain">
+      <div class="story_slider">
+
+        <div class="story">
+
+          <div class="content" id="create_story">
+            <img src="Stories/story4.JPG">
+            <div class="story_blurr_effect"></div>
+          </div>
+        </div>
+        <div class="story">
+          <div class="content" id="story1">
+            <img src="Stories/cr7story.jpg">
+            <div class="storyuploader">
+              <div class="profilepic">
+                <img src="ProfilePictures/cronaldo.jpg" alt="" style="
+      width: 40px;
+      height: 40px;
+  ">
+              </div>
+            </div>
+            <div class="name">Cristiano ronaldo</div>
+            <div class="story_blurr_effect"></div>
+          </div>
+        </div>
+        <div class="story">
+          <div class="content" id="story2">
+            <img src="Stories/messistory.jpg">
+            <div class="story_blurr_effect"></div>
+          </div>
+        </div>
+        <div class="story">
+          <div class="content" id="story3">
+            <img src="Stories/story1.jpg">
+            <div class="story_blurr_effect"></div>
+          </div>
+        </div>
+        <div class="story">
+          <div class="content" id="story4">
+            <img src="Stories/story2.jpg">
+            <div class="story_blurr_effect"></div>
+          </div>
+        </div>
+        <div class="story">
+          <div class="content" id="story5">
+            <img src="Stories/story3.jpg">
+            <div class="story_blurr_effect"></div>
+          </div>
+        </div>
+        <div class="story">
+          <div class="content" id="story6">
+            <img src="Stories/story4.JPG">
+            <div class="story_blurr_effect"></div>
+          </div>
+        </div>
+        <!-- <div class="story">
+                  <div class="story7"></div>
+              </div>
+              <div class="story">9</div>
+              <div class="story">10</div>
+              <div class="story">11</div> -->
+        <button class="left_button" onclick="slide(-1)"><i class="fas fa-chevron-left"
+            style="color: #505050;font-size: 16px;"></i></button>
+        <button class="right_button" onclick="slide(1)"><i class="fa-solid fa-chevron-right"
+            style="color: #505050;font-size: 16px;"></i></button>
+      </div>
+      <div class="create_post">
+        <div class="postuploader"><div class="profile"></div>
+        <div class="postbar"><p>Whats on your mind?</p></div></div>
+        <div class="postoptions">
+          <div class="options" id="live"><i class='fas fa-video'></i><div id="playicon"><i class='fas fa-play'></i></div><p>Live Video</p></div>
+          <div class="options" id="photovideo"><i class="material-icons">photo_library</i><p>Photo/Video</p></div>
+          <div class="options" id="feeling"><i class='far fa-laugh'></i><p>Feeling/Activity</p></div>
+        </div>
+      </div>
+        <div class="create_room">
+          <div class="createroombutton"><i class='fas fa-video'></i><p>Create room</p><div      id="Iconplus">+</div>
+        </div>
+      </div>
+      <div class="posts">
+        <div class="content">
+          <div class="uploader">
+            <div class="profilepic">
+              <img src="ProfilePictures/cronaldo.jpg" alt="">
+            </div>
+            <div class="nameandtime">
+              <div class="name">Cristiano Ronaldo<i class="material-icons">check_circle</i></div>
+              <div class="time">March 3 at 12:03 AM<i class="material-icons">public</i></div>
+            </div>
+          </div>
+          <div class="uploads">
+            <div class="UploadText">Eyes on the ball 👀⚽️💪🏽 #mufc</div>
+            <div class="uploadmedia"><img src="Posts/cronaldo.jpg" alt=""></div>
+          </div>
+          <div class="engagement">
+            <div class="reactions">
+              <div class="reactionicons" id="likeemoji"><i class='fas fa-thumbs-up'></i></div>
+              <div class="reactionicons" id="heartemoji"><i class='fas fa-heart'></i></div>
+              <div class="reactionicons" id="laughtemoji"><i class='far fa-laugh-squint'></i></div>
+              <p>30K</p>
+            </div>
+            <div class="commentsandshares">
+              <div class="comments">1.5K Comments</div>
+            <div class="shares">242 Shares</div></div>
+            
+          </div>
+          <div class="reaction">
+            <div class="reaction_button" id="like"><i class='far fa-thumbs-up'></i><p>Like</p></div>
+            <div class="reaction_button" id="comment"><i class='far fa-comment-alt'></i><p>Comment</p></div>
+            <div class="reaction_button" id="share"><i class='fas fa-share'></i><p>Share</p></div>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+
+    <div class="right_content">
+      <div class="right_sidebar">
+        <div class="sponsor_box">
+          <p id="heading">Sponsored</p>
+          <a href="">
+            <div class="sponsor"> <img src="My images/Amazonspncr.png" alt="">
+              <div class="Text">
+                <p class="Title">Amazon</p>
+                <p class="link">amazon.com</p>
+              </div>
+            </div>
+          </a>
+          <a href="">
+            <div class="sponsor"> <img src="My images/PinerestSpncr.png" alt="">
+              <div class="Text">
+                <p class="Title">Pinterest</p>
+                <p class="link">pinterest.com</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="group_conversations"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+</body>
+
+</html>
