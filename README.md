@@ -11,6 +11,6 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/repository-name.git
+git clone https://github.com/Ayan01456/WebDev-Projects
 Open a project folder.
 Run index.html in your browser.
